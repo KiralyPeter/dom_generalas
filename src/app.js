@@ -15,10 +15,12 @@ const gyumolcsok = [
 gyumolcsok.forEach( (gyumolcs) => {
     // console.log(gyumolcs); -- csak teszteléshez kellett...
     
+
+    // li elemet generálása
     var li = document.createElement("li");
     li.textContent = gyumolcs;
     ul.append(li);
 });
 
-// li elemet generálása
+
 
